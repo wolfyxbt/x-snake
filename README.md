@@ -1,19 +1,19 @@
 # x-snake
 
-A minimal snake game that runs inside the X (Twitter) player card.
+一个可以在 X (Twitter) 帖子预览中直接游玩的贪吃蛇小游戏。
 
-**Play now:** https://x-snake.vercel.app
+**在线体验:** https://x-snake.vercel.app
 
-## Features
+## 特性
 
-- Playable directly in X post previews via Twitter Player Card
-- Keyboard arrow keys + on-screen touch controls
-- Auto-pause on focus loss
-- High score saved to localStorage
-- Speed increases as you eat food
-- Sound effects & eat animations
+- 通过 Twitter Player Card 在 X 帖子内直接游玩
+- 支持键盘方向键和屏幕触控按钮
+- 失焦自动暂停
+- 最高分记录（localStorage）
+- 吃食物后加速
+- 音效反馈和吃食物动画
 
-## Run locally
+## 本地运行
 
 ```bash
 npx serve .
